@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover and mint 42 - Cosmic Genesis, a unique NFT from TokenizeArt.">
+    <title>42 — Cosmic Genesis | TokenizeArt</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="navbar">
+        <a class="logo" href="#">TOKENIZE<span>ART</span></a>
+
+        <button id="connect-wallet" class="wallet-button">
+            Connect Wallet
+        </button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="eyebrow">THE TOKENIZEART COLLECTION</p>
+
+            <h1>More than art.<br><span>A piece of 42.</span></h1>
+
+            <p class="hero-description">
+                Enter a cosmic universe where art meets blockchain.
+                Discover the story behind Cosmic Genesis.
+            </p>
+        </section>
+
+        <section class="nft-section">
+            <div class="artwork-container">
+                <img
+                    id="nft-image"
+                    src="https://gateway.pinata.cloud/ipfs/bafybeiebaip2dn4ayludjcbasogm5fokabbn2zfyho2eefl5qamwqzmf6i"
+                    alt="42 - Cosmic Genesis NFT artwork"
+                >
+                <span class="artwork-label">GENESIS COLLECTION · #42</span>
+            </div>
+
+            <div class="nft-details">
+                <p class="eyebrow">EXCLUSIVE DIGITAL COLLECTIBLE</p>
+                <h2>42 — Cosmic Genesis</h2>
+                <p class="artist">Created by <strong>clyamani</strong></p>
+
+                <p class="nft-description">
+                    A unique digital artwork representing the spirit of 42,
+                    blending blockchain technology, cosmic energy, and
+                    futuristic design.
+                </p>
+
+                <div class="attributes">
+                    <div class="attribute">
+                        <span>COLLECTION</span>
+                        <strong>TokenizeArt</strong>
+                    </div>
+                    <div class="attribute">
+                        <span>THEME</span>
+                        <strong>Cosmic</strong>
+                    </div>
+                    <div class="attribute">
+                        <span>NETWORK</span>
+                        <strong>Sepolia</strong>
+                    </div>
+                </div>
+
+                <button id="mint-button" class="mint-button" disabled>
+                    Connect wallet to mint
+                </button>
+
+                <p id="status-message" class="status-message" aria-live="polite">
+                    Connect your wallet to get started.
+                </p>
+
+                <div id="mint-result" class="mint-result" hidden>
+                    <h3>NFT successfully minted!</h3>
+                    <p id="mint-token-id"></p>
+                    <p id="mint-owner"></p>
+                    <p id="mint-uri"></p>
+                    <a id="mint-transaction-link" href="#" target="_blank" rel="noopener noreferrer">
+                        View transaction on Blockscout
+                    </a>
+                </div>
+
+                <p class="network-note">
+                    Ethereum Sepolia Testnet · Test ETH only
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 TokenizeArt · Built for the 42 community</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6/dist/ethers.umd.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

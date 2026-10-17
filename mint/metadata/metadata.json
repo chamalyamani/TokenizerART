@@ -1,0 +1,29 @@
+
+{
+  "name": "42 - Cosmic Genesis",
+  "description": "A unique digital artwork representing the spirit of 42, blending blockchain technology, cosmic energy, and futuristic design. Created for the TokenizeArt NFT project.",
+  "image": "ipfs://bafybeiebaip2dn4ayludjcbasogm5fokabbn2zfyho2eefl5qamwqzmf6i",
+  "artist": "clyamani",
+  "attributes": [
+    {
+      "trait_type": "Creator",
+      "value": "clyamani"
+    },
+    {
+      "trait_type": "Collection",
+      "value": "TokenizeArt"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Cosmic"
+    },
+    {
+      "trait_type": "Style",
+      "value": "Futuristic Digital Art"
+    },
+    {
+      "trait_type": "Number",
+      "value": 42
+    }
+  ]
+}
